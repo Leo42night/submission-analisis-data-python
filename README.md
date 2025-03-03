@@ -29,6 +29,5 @@ pip install -r requirements.txt
 ## Run steamlit app
 Setelah setup install package dari `reqirements.txt` selesai. Dalam project folder, jalankan:
 ```
-cd dashboard
-streamlit run dashboard.py
+streamlit run dashboard/dashboard.py
 ```
