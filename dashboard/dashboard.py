@@ -8,7 +8,7 @@ import numpy as np
 # Load dataset
 @st.cache_data
 def load_data():    
-    df = pd.read_csv("main_data.csv") # path relative terhadap tempat streamlit dijalankan
+    df = pd.read_csv("dashboard/main_data.csv") # path relative terhadap tempat streamlit dijalankan
     return df
 
 df = load_data()
